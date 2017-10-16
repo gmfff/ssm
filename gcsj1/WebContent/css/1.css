@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+    padding: 0;
+    background: url(../image/banner.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+    -webkit-background-size: cover;
+
+}
+h1{
+	text-align: center;
+    font-size: 45px;
+    color: #fff;
+    padding: 50px 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+}
+.log{
+	width: 50%;
+    margin: 100px 650px; ;
+}
+.content1{
+width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.21);
+    padding: 30px 0;
+    float: left;
+    border-radius: 0px;
+    height:330px;
+}
+h2{
+font-size: 40px;
+    padding: 10px 0 0 0;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+.content1 input[type="text"] { 
+    background: url(/image/person.png) no-repeat 418px 10px;
+	}
+.content1 input[type="text"] {
+    padding: 10px 40px 10px 10px;
+    width: 80%;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    background: url(../images/person.png) no-repeat 440px 10px;
+    margin-top: 4%;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+.content1 input[type="password"] {
+    padding: 10px 40px 10px 10px;
+    width: 80%;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    background: url(../images/lock.png) no-repeat 440px 10px;
+    margin-top: 6%;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+.button-row {
+    width: 100%;
+    margin-top: 7%;
+    padding-bottom: 40px;
+}
+.sign-in {
+    padding: 10px;
+    background-color: #4C9A39;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-left: 62px;
+    float: left;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.reset {
+    padding: 10px;
+    background-color: #c0392b;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    margin-right: 62px;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}

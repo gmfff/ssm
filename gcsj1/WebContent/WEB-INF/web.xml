@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <filter>
+   <filter-name>Chinesefilter</filter-name>
+   <filter-class>Examquestion.Chinese</filter-class>
+ </filter>
+ <filter-mapping>
+   <filter-name>Chinesefilter</filter-name>
+   <url-pattern>/*</url-pattern>
+ </filter-mapping>
+  <servlet>
+    <servlet-name>movetolist</servlet-name>
+    <servlet-class>Examquestion.movetolist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>movetolist</servlet-name>
+    <url-pattern>/movetolist</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>deleteaction</servlet-name>
+    <servlet-class>Examquestion.deleteaction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteaction</servlet-name>
+    <url-pattern>/deleteaction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>getoneaction</servlet-name>
+    <servlet-class>Examquestion.getoneaction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getoneaction</servlet-name>
+    <url-pattern>/getoneaction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>addquestionaction</servlet-name>
+    <servlet-class>Examquestion.addquestionaction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addquestionaction</servlet-name>
+    <url-pattern>/addquestionaction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>fixquestionaction</servlet-name>
+    <servlet-class>Examquestion.fixquestionaction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fixquestionaction</servlet-name>
+    <url-pattern>/fixquestionaction</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GlyListAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>gly.GlyListAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GlyLoginAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>gly.GlyLoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GlyGetAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>gly.GlyGetAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GlyExitAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>gly.GlyExitAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GlyUpdateAction</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>gly.GlyUpdateAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GlyListAction</servlet-name>
+    <url-pattern>/servlet/GlyListAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GlyLoginAction</servlet-name>
+    <url-pattern>/servlet/GlyLoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GlyGetAction</servlet-name>
+    <url-pattern>/servlet/GlyGetAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GlyExitAction</servlet-name>
+    <url-pattern>/servlet/GlyExitAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GlyUpdateAction</servlet-name>
+    <url-pattern>/servlet/GlyUpdateAction</url-pattern>
+  </servlet-mapping>
+</web-app>
